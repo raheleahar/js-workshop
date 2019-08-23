@@ -6,13 +6,4 @@ setTimeout(() => {
 
 }, 0);
 
-
-console.log('finish');
-
-*
-**
-***
-****
-***
-**
-*
+console.log('almost finish');
