@@ -1,5 +1,5 @@
 
-let ForLoopStars = () => {
+ function ForLoopStars (){
     let text = "";
     let i;
     let n = 8;
@@ -15,11 +15,10 @@ let ForLoopStars = () => {
     }
 
     console.log(text);
-};
-ForLoopStars();
+}
+ ForLoopStars()
 
-
-let WhileLoopStars = () => {
+ function WhileLoopStars (){
 
     let text = "";
     let i = 0;
@@ -39,13 +38,10 @@ let WhileLoopStars = () => {
     }
 
     console.log(text);
-};
-WhileLoopStars();
+}
+ WhileLoopStars ()
 
-
-let DoWhileLoopStars = () => {
-
-
+ function DoWhileLoopStars(){
     let text = "";
     let i = 0;
     let n = 8;
@@ -64,6 +60,5 @@ let DoWhileLoopStars = () => {
     } while (i < n);
 
     console.log(text);
-};
-DoWhileLoopStars();
-
+}
+ DoWhileLoopStars()
