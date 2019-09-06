@@ -10,7 +10,7 @@ function Game() {
 
     console.log('Player : ' + ObjectStrings[player] + ' | Computer : ' + ObjectStrings[computer]);
 
-    if ( player - computer == 1 ) {
+    if ((player == 1 && computer == 0) || (player == 2 && computer == 1) || (player == 0 && computer == 2)) {
         console.log('Game Result : YOU WIN');
     }
     else if(computer == player) {
