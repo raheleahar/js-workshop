@@ -2,7 +2,7 @@
 function FizzBuzzTest(val1) {
     return (val2) => 
     {
-        for (i=1 ;i<=val1;i++){
+        for (let i=1 ;i<=val1;i++){
             if (i%val2==0){
                 console.log('Fizz');
             } else{
@@ -19,7 +19,7 @@ function FizzBuzzTest(val1) {
 console.log('--------');
 
 function getmax(params) {
-    mx=params[0];
+    let mx=params[0];
     for (i = 1; i < params.length; i++) {
         if (params[i]>mx){
             mx=params[i]
@@ -28,7 +28,7 @@ function getmax(params) {
     return(mx);
 }
 function getmin(params) {
-    mx=params[0];
+    let mx=params[0];
     for (i = 1; i < params.length; i++) {
         if (params[i]<mx){
             mx=params[i]
